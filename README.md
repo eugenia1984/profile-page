@@ -23,7 +23,7 @@
 
 - [María Eugenia Costa](https://github.com/eugenia1984)
 
-- [Ricardo Ramos]()
+- [Ricardo Ramos](https://github.com/elequipoderiki)
 
 ---
 
