@@ -1,3 +1,12 @@
+.col-card {
+  display: flex;
+  justify-content: center;
+}
+
 .card-body {
-  min-height: 260px;
+  min-height: 334px;
+}
+
+.card-text {
+  min-height: 254px;
 }

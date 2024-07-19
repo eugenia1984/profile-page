@@ -12,20 +12,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
-    <link rel="stylesheet" href="./assets/css/profile.css" >
+    <link rel="stylesheet" href="./assets/css/profile.css" />
   </head>
   <body>
     <header></header>
     <main>
       <section id="profile-title" class="py-5 px-2">
-        <h1 class="text-center">Perfiles</h1>
+        <h1 class="text-center fs-1">Perfiles</h1>
       </section>
       <section id="introduction" class="container pb-4">
-        <p>Estos son nuestros diseñadores</p>
+        <p class="px-1 text-center fs-3">Estos son nuestros diseñadores:</p>
       </section>
       <section id="profile-cards" class="container">
         <section class="row">
-          <div class="col col-sm-12 col-md-6 mb-2">
+          <div class="col col-sm-12 col-md-6 mb-3 col-card">
             <div
               class="card bg-success"
               style="width: 18rem; --bs-bg-opacity: 0.1"
@@ -40,7 +40,12 @@
               <div class="card-body">
                 <h5 class="card-title">María Eugenia Costa</h5>
                 <p class="card-text">
-                  Desarrolladora Front End con 3 años de experiencia.
+                  Soy una persona apasionada por la tecnología y el desarrollo.
+                  <br />
+                  Mi experiencia abarca tanto el desarrollo Front-End como el
+                  Back-End, así como la gestión de bases de datos. <br />
+                  Me especializo en el uso de React, TypeScript, MUI,
+                  JavaScript, HTML5 y CSS3 para el Front-End
                 </p>
                 <a
                   href="https://github.com/eugenia1984"
@@ -57,19 +62,30 @@
               </div>
             </div>
           </div>
-          <div class="col col-sm-12 col-md-6 mb-2">
+          <div class="col col-sm-12 col-md-6 mb-3 col-card">
             <div
               class="card bg-success"
               style="width: 18rem; --bs-bg-opacity: 0.1"
             >
-              <img src="https://avatars.githubusercontent.com/u/21247165?v=4" class="card-img-top" alt="Ricardo Ramos, desarrollador" />
+              <img
+                src="https://avatars.githubusercontent.com/u/21247165?v=4"
+                class="card-img-top"
+                alt="Ricardo Ramos, desarrollador"
+              />
               <div class="card-body">
                 <h5 class="card-title">Ricardo Ramos</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Apasionado de la tecnología: IA, desarrollo Web, Robots.
+                  <br />
+                  Soy autodidacta, siempre busco una nueva tecnología que
+                  desconozco y investigo sobre ella. Hace 8 años que me dedico a
+                  investigar, tanto académicamente como en la práctica, sobre el
+                  computador y programación.
                 </p>
-                <a href="https://github.com/elequipoderiki" class="btn btn-success btn-large" target="_blank"
+                <a
+                  href="https://github.com/elequipoderiki"
+                  class="btn btn-success btn-large"
+                  target="_blank"
                   ><img
                     src="./assets/images/git-hub.svg"
                     width="16"
@@ -84,7 +100,27 @@
         </section>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-success py-4 px-2 mt-5" style="--bs-bg-opacity: 0.1">
+      <p class="text-center">
+        Práctica realizada por:
+        <a
+          href="https://github.com/eugenia1984"
+          target="_blank"
+          alt="Link de María Eugenia Costa de GitHub"
+          class="text-success"
+          >María Eugenia Costa</a
+        >
+        y
+        <a
+          href="https://github.com/elequipoderiki"
+          target="_blank"
+          alt="Link de Ricardo Ramos de GitHub"
+          class="text-success"
+          >Ricardo Ramos</a
+        >
+        para el curso de <strong>CILSA</strong>.
+      </p>
+    </footer>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
