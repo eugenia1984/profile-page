@@ -12,89 +12,141 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
   </head>
   <body>
     <header>
-      
-      <!-- Navbar -->
       <nav class="navbar navbar-expand-lg">
-        
-        <span class="text-white navbar-brand ms-xl-5 ms-3">Baires Devs</span>
-        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-brand ms-xl-5 ms-3"
+          ><a
+            href="/"
+            class="text-white text-uppercase fw-bolder text-decoration-none"
+            >Baires Devs</a
+          ></span
+        >
+        <button
+          class="navbar-toggler me-3"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
-        </button> 
-
-        <div class="collapse navbar-collapse justify-content-end me-md-5" id="navbarNav">
-          <ul class="navbar-nav">
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end me-md-5"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav" id="navbar-mobile">
             <li class="nav-item selected">
-              <a class="nav-link text-white ms-3" href="#">Inicio <span class="sr-only"></span></a>
+              <a class="nav-link text-white px-2" href="#"
+                >Inicio <span class="sr-only"></span
+              ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white ms-3" href="profile.html">Perfil</a>
+              <a class="nav-link text-white px-2" href="profile.html">Perfil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white ms-3" href="contact.html">Contacto</a>
+              <a class="nav-link text-white px-2" href="contact.html"
+                >Contacto</a
+              >
             </li>
           </ul>
         </div>
       </nav>
-
-    
     </header>
     <main>
       <!-- Carousel -->
       <div id="mislider" class="carousel slide" data-bs-ride="carousel">
-
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#mislider" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#mislider" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#mislider" data-bs-slide-to="2"></button>
+          <button
+            type="button"
+            data-bs-target="#mislider"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mislider"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#mislider"
+            data-bs-slide-to="2"
+          ></button>
         </div>
 
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/images/web-dev.jpg" alt="web devs" class="d-block w-100">
+            <img
+              src="assets/images/web-dev.jpg"
+              alt="web devs"
+              class="d-block w-100"
+            />
 
             <div class="carousel-caption d-md-block">
               <h3>Desarrollo Web</h3>
-              <p>Nuestro equipo es experto en las tecnologias mas demandadas.
+              <p class="pt-4 fw-bolder">
+                Nuestro equipo es experto en las tecnologias mas demandadas.
+              </p>
+              <p class="pt-2 fw-bolder">
                 Asesórese con los mejores.
               </p>
             </div>
-
           </div>
           <div class="carousel-item">
-            <img src="assets/images/data-anl.jpg" alt="data devs" class="d-block w-100">
+            <img
+              src="assets/images/data-anl.jpg"
+              alt="data devs"
+              class="d-block w-100"
+            />
 
             <div class="carousel-caption d-md-block">
               <h3>Data Analitycs</h3>
-              <p>Deje sus datos en nuestras manos. Somos expertos en las tecnologías mas usadas en el mercado.
+              <p class="pt-4 fw-bolder">Deje sus datos en nuestras manos.</p>
+              <p class="pt-2 fw-bolder">
+                Somos expertos en las tecnologías mas usadas en el mercado.
               </p>
             </div>
-
           </div>
           <div class="carousel-item">
-            <img src="assets/images/mobile.jpg" alt="mobile devs" class="d-block w-100">
-
+            <img
+              src="assets/images/mobile.jpg"
+              alt="mobile devs"
+              class="d-block w-100"
+            />
             <div class="carousel-caption d-md-block" id="mobile-cap">
               <h3>Desarrollo Mobile</h3>
-              <p>La aplicación que necesita para su negocio puede estar en su celular. Consúltenos.
+              <p class="pt-4 fw-bolder">
+                La aplicación que necesita para su negocio puede estar en su
+                celular.
               </p>
+              <p class="pt-2 fw-bolder">Consúltenos.</p>
             </div>
-
           </div>
         </div>
-
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#mislider" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mislider"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#mislider" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mislider"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon"></span>
         </button>
-      </div>      
+      </div>
     </main>
     <footer class="bg-success py-4 px-2 mt-4" style="--bs-bg-opacity: 0.1">
       <p class="text-center">
