@@ -24,24 +24,38 @@
             >Baires Devs</a
           ></span
         >
-        <button
-          class="navbar-toggler me-3"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div id="btn-wrapper">
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button
+            type="button"
+            id="theme"
+            class="btn btn-outline-success text-white"
+          >
+            <img
+              src="./assets/images/luna.svg"
+              width="30"
+              height="30"
+              id="light-dark-theme-button"
+            />
+          </button>
+        </div>
         <div
           class="collapse navbar-collapse justify-content-end me-md-5"
           id="navbarNav"
         >
           <ul class="navbar-nav" id="navbar-mobile">
             <li class="nav-item selected">
-              <a class="nav-link text-white px-2" href="#"
+              <a class="nav-link text-white px-2" href="/"
                 >Inicio <span class="sr-only"></span
               ></a>
             </li>
@@ -59,9 +73,9 @@
     </header>
     <main>
       <!-- Carousel -->
-      <div id="mislider" class="carousel slide" data-bs-ride="carousel">
+      <section id="mislider" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
-        <div class="carousel-indicators">
+        <section class="carousel-indicators">
           <button
             type="button"
             data-bs-target="#mislider"
@@ -78,10 +92,9 @@
             data-bs-target="#mislider"
             data-bs-slide-to="2"
           ></button>
-        </div>
-
+        </section>
         <!-- The slideshow/carousel -->
-        <div class="carousel-inner">
+        <section class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="assets/images/web-dev.jpg"
@@ -90,13 +103,13 @@
             />
 
             <div class="carousel-caption d-md-block">
-              <h3>Desarrollo Web</h3>
-              <p class="pt-4 fw-bolder">
-                Nuestro equipo es experto en las tecnologias mas demandadas.
-              </p>
-              <p class="pt-2 fw-bolder">
-                Asesórese con los mejores.
-              </p>
+                <h3 class="text-start">Desarrollo Web</h3>
+                <p class="pt-4 fw-bolder text-start">
+                  Nuestro equipo es experto en las tecnologias mas demandadas.
+                </p>
+                <p class="pt-2 fw-bolder text-start">
+                  Asesórese con los mejores.
+                </p>
             </div>
           </div>
           <div class="carousel-item">
@@ -107,9 +120,11 @@
             />
 
             <div class="carousel-caption d-md-block">
-              <h3>Data Analitycs</h3>
-              <p class="pt-4 fw-bolder">Deje sus datos en nuestras manos.</p>
-              <p class="pt-2 fw-bolder">
+              <h3 class="text-start">Data Analitycs</h3>
+              <p class="pt-4 fw-bolder text-start">
+                Deje sus datos en nuestras manos.
+              </p>
+              <p class="pt-2 fw-bolder text-start">
                 Somos expertos en las tecnologías mas usadas en el mercado.
               </p>
             </div>
@@ -121,15 +136,15 @@
               class="d-block w-100"
             />
             <div class="carousel-caption d-md-block" id="mobile-cap">
-              <h3>Desarrollo Mobile</h3>
-              <p class="pt-4 fw-bolder">
+              <h3 class="text-start">Desarrollo Mobile</h3>
+              <p class="pt-4 fw-bolder text-start">
                 La aplicación que necesita para su negocio puede estar en su
                 celular.
               </p>
-              <p class="pt-2 fw-bolder">Consúltenos.</p>
+              <p class="pt-2 fw-bolder text-start">Consúltenos.</p>
             </div>
           </div>
-        </div>
+        </section>
         <button
           class="carousel-control-prev"
           type="button"
@@ -146,7 +161,7 @@
         >
           <span class="carousel-control-next-icon"></span>
         </button>
-      </div>
+      </section>
     </main>
     <footer class="bg-success py-4 px-2 mt-4" style="--bs-bg-opacity: 0.1">
       <p class="text-center">
