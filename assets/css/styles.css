@@ -66,13 +66,21 @@ footer a {
 
 .carousel-caption h3 {
   font-size: 4rem;
+  color: var(--primary-t-color) !important;
 }
 
 .carousel-caption p {
   font-size: 1.5rem;
+  color: var(--primary-t-color)!important;
 }
 
 /* responsive  */
+@media  screen and (max-width: 1440px) {
+  main {
+    min-height: auto!important;
+  }
+}
+
 @media  screen and (max-width: 1199px) {
   .carousel-caption h3 {
     font-size: 32px;
@@ -95,6 +103,10 @@ footer a {
   #mobile-cap {
     top:30%;
   }
+
+  main {
+    min-height: auto!important;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -112,6 +124,10 @@ footer a {
   .carousel-caption h3 {
     font-size: 1.8rem;
   }
+
+  main {
+    min-height: auto!important;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -126,6 +142,10 @@ footer a {
 
   #mobile-cap {
     top:20%;
+  }
+
+  main {
+    min-height: auto!important;
   }
 }
 
