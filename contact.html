@@ -24,24 +24,33 @@
             >Baires Devs</a
           ></span
         >
-        <button
-          class="navbar-toggler me-3"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div id="btn-wrapper">
+          <button
+            class="navbar-toggler me-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button
+            type="button"
+            id="theme"
+            class="btn btn-outline-success text-white"
+          >
+            <img src="./assets/images/luna.svg" width="30" height="30" id="light-dark-theme-button"/>
+          </button>
+        </div>
         <div
           class="collapse navbar-collapse justify-content-end me-md-5"
           id="navbarNav"
         >
           <ul class="navbar-nav" id="navbar-mobile">
             <li class="nav-item selected">
-              <a class="nav-link text-white px-2" href="#"
+              <a class="nav-link text-white px-2" href="/"
                 >Inicio <span class="sr-only"></span
               ></a>
             </li>
