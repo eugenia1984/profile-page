@@ -34,10 +34,10 @@ footer a {
 }
 
 /* carousel  */
-.carousel-inner {
-  height: 0;
-  padding-bottom: 40%;
-}
+  .carousel-inner {
+    height: 0;
+    padding-bottom: 40%;
+  }
 
 .carousel-item:after {
   content: '';
@@ -101,11 +101,16 @@ footer a {
   }
 
   #mobile-cap {
-    top:30%;
+    top:35%;
   }
 
-  main {
-    min-height: auto!important;
+  .carousel-item img {
+    height: 75vh;
+    object-fit:cover;
+  }
+
+  .carousel-inner {
+    min-height: 75vh;
   }
 }
 
@@ -116,36 +121,52 @@ footer a {
 
   .carousel-caption {
     text-align: center;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
+    top: 40%;
   }
 
   .carousel-caption h3 {
     font-size: 1.8rem;
   }
+  
+  #mobile-cap {
+    top:40%;
+  }
 
-  main {
-    min-height: auto!important;
+  .carousel-item img {
+    height: 75vh;
+    object-fit:cover;
+  }
+
+  .carousel-inner {
+    min-height: 75vh;
   }
 }
 
 @media screen and (max-width: 575px) {
   .carousel-caption h3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .carousel-caption {
-    top: 25%;
+    top: 40%;
     text-align: center;
   }
 
   #mobile-cap {
-    top:20%;
+    top:40%;
   }
 
-  main {
-    min-height: auto!important;
+  .carousel-item img {
+    /* height: 700px; */
+    min-height: 70vh;
+    object-fit:cover;
+  }
+
+  .carousel-inner {
+    min-height: 70vh;
   }
 }
 
