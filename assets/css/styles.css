@@ -76,7 +76,7 @@ footer a {
 /* responsive  */
 @media  screen and (max-width: 1440px) {
   main {
-    min-height: 92vh;
+    min-height: 95vh;
   }
 }
 
