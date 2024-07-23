@@ -43,4 +43,28 @@
 
 [https://eugenia1984.github.io/profile-page/](https://eugenia1984.github.io/profile-page/)
 
+- **Home page** con el carousel de imágenes.
+
+-Vista TAblet / Desktop:
+![image](https://github.com/user-attachments/assets/b515362a-cd31-4e3f-be4d-34d15b72c964)
+
+- **Header** y **Footer** con *+Barra de navegación responsiva y con el icono para cambiar el tema entre claro / oscuro:
+
+-Vista Mobile en modo oscuro:
+
+![image](https://github.com/user-attachments/assets/0ec6c169-c95f-4599-bb2f-4d4dc6610ec6)
+
+- **Página de Perfil** en tablet / desktop, en modo oscuro:
+
+![image](https://github.com/user-attachments/assets/0cac1ea5-5788-4d21-a5b7-115c534f18aa)
+
+
+- **Págian de perfil** en mobile, modo claro.
+
+![image](https://github.com/user-attachments/assets/3eef6a00-224e-4f1b-b9e6-b2fef1a08ee1)
+
+- **Formulario de contacto** con validaciones:
+
+![image](https://github.com/user-attachments/assets/44740fad-9a4a-4c83-95ad-32542dd2020a)
+
 ---
