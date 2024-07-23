@@ -9,18 +9,12 @@
   --primary-b-color: rgb(25, 135, 84);
   --primary-b-color-dark: rgb(15, 83, 52);
   --primary-t-color: #fff;
-  
 }
 
 /* Footer */
 footer a {
   text-decoration: none;
   font-weight: 800;
-}
-
-/* Utilities  */
-.text-white {
-  color: var(--primary-t-color)!important;
 }
 
 /* Navbar  */
@@ -73,7 +67,7 @@ footer a {
   color: var(--primary-t-color)!important;
 }
 
-/* responsive  */
+/* Responsive  */
 @media  screen and (max-width: 1440px) {
   main {
     min-height: 95vh;
