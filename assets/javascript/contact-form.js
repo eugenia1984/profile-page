@@ -16,7 +16,7 @@
   const clearAlert = () => {
     setTimeout(() => {
       alert.innerHTML = "";
-    }, 5000);
+    }, 3000);
   };
 
   // Loop over them and prevent submission, if data it's ok send data, if not show alert error
@@ -52,7 +52,7 @@
             .then((response) => response.json())
             .then((data) => {
               if (data.success) {
-                alert.innerHTML = `<p class="alert alert-success"> Formulario enviado</p>`;
+                alert.innerHTML = `<p class="alert alert-success"> Formulario enviado con éxito</p>`;
                 form.reset();
                 form.classList.remove("was-validated");
                 clearAlert();
