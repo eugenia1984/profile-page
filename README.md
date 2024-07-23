@@ -45,27 +45,28 @@
 
 - **Home page** con el carousel de imágenes.
 
--Vista Tablet / Desktop:
+-Vista Tablet / Desktop en modo claro:
 
-<img src="https://github.com/user-attachments/assets/b515362a-cd31-4e3f-be4d-34d15b72c964" width="450" alt="pagina home" />
+<img src="https://github.com/user-attachments/assets/33b511a8-6e1a-40e4-a009-ffd6717e827d" width="450" alt="pagina home" />
 
 - **Header** y **Footer** con **Barra de navegación** responsiva y con el **icono** para cambiar el tema entre claro / oscuro:
 
 -Vista Mobile en modo oscuro:
 
-<img src="https://github.com/user-attachments/assets/0ec6c169-c95f-4599-bb2f-4d4dc6610ec6" width="450" alt="pagina home en vista mobile y modo oscuro" />
+<img src="https://github.com/user-attachments/assets/8799ccce-f411-4d8b-a6e1-ebb08f46b8b5" width="450" alt="pagina home en vista mobile y modo oscuro" />
 
 - **Página de Perfil** en tablet / desktop, en modo oscuro:
 
-<img src="https://github.com/user-attachments/assets/0cac1ea5-5788-4d21-a5b7-115c534f18aa" width="450" alt="pagina de perfil en vista desktop y modo oscuro" />
+
+<img src="https://github.com/user-attachments/assets/204eb96e-07be-407c-ae35-dca879308ee8" width="450" alt="pagina de perfil en vista desktop y modo oscuro" />
 
 - **Página de perfil** en mobile, modo claro.
 
-<img src="https://github.com/user-attachments/assets/3eef6a00-224e-4f1b-b9e6-b2fef1a08ee1" width="450" alt="pagina de perfil en vista mobile y modo claro" />
+<img src="https://github.com/user-attachments/assets/cd6ffa96-307f-4ed1-8337-79b1df17346e" width="450" alt="pagina de perfil en vista mobile y modo claro" />
 
 - **Formulario de contacto** con validaciones:
 
-<img src="https://github.com/user-attachments/assets/44740fad-9a4a-4c83-95ad-32542dd2020a" width="450" alt="pagina de contacto" />
+<img src="https://github.com/user-attachments/assets/f31318f9-cb99-4748-b909-ef3f86194bbd" width="450" alt="pagina de contacto" />
 
 
 ---
