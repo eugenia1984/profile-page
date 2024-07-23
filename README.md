@@ -47,7 +47,7 @@
 
 -Vista Tablet / Desktop en modo claro:
 
-<img src="https://github.com/user-attachments/assets/33b511a8-6e1a-40e4-a009-ffd6717e827d" width="60" alt="pagina home" />
+<img src="https://github.com/user-attachments/assets/33b511a8-6e1a-40e4-a009-ffd6717e827d" width="600" alt="pagina home" />
 
 - **Header** y **Footer** con **Barra de navegación** responsiva y con el **icono** para cambiar el tema entre claro / oscuro:
 
