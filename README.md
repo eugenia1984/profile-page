@@ -53,20 +53,19 @@
 
 -Vista Mobile en modo oscuro:
 
-<img src="https://github.com/user-attachments/assets/8799ccce-f411-4d8b-a6e1-ebb08f46b8b5" width="450" alt="pagina home en vista mobile y modo oscuro" />
+<img src="https://github.com/user-attachments/assets/8799ccce-f411-4d8b-a6e1-ebb08f46b8b5" width="400" alt="pagina home en vista mobile y modo oscuro" />
 
 - **Página de Perfil** en tablet / desktop, en modo oscuro:
 
-
-<img src="https://github.com/user-attachments/assets/204eb96e-07be-407c-ae35-dca879308ee8" width="450" alt="pagina de perfil en vista desktop y modo oscuro" />
+<img src="https://github.com/user-attachments/assets/204eb96e-07be-407c-ae35-dca879308ee8" width="500" alt="pagina de perfil en vista desktop y modo oscuro" />
 
 - **Página de perfil** en mobile, modo claro.
 
-<img src="https://github.com/user-attachments/assets/cd6ffa96-307f-4ed1-8337-79b1df17346e" width="450" alt="pagina de perfil en vista mobile y modo claro" />
+<img src="https://github.com/user-attachments/assets/cd6ffa96-307f-4ed1-8337-79b1df17346e" width="400" alt="pagina de perfil en vista mobile y modo claro" />
 
 - **Formulario de contacto** con validaciones:
 
-<img src="https://github.com/user-attachments/assets/f31318f9-cb99-4748-b909-ef3f86194bbd" width="450" alt="pagina de contacto" />
+<img src="https://github.com/user-attachments/assets/f31318f9-cb99-4748-b909-ef3f86194bbd" width="500" alt="pagina de contacto" />
 
 
 ---
