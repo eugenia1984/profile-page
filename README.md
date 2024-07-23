@@ -45,12 +45,17 @@
 
 - **Home page** con el carousel de imágenes.
 
--Vista TAblet / Desktop:
+-Vista Tablet / Desktop:
+
+<img src="https://github.com/user-attachments/assets/b515362a-cd31-4e3f-be4d-34d15b72c964" width="500" alt="pagina home" />
 ![image](https://github.com/user-attachments/assets/b515362a-cd31-4e3f-be4d-34d15b72c964)
 
 - **Header** y **Footer** con *+Barra de navegación responsiva y con el icono para cambiar el tema entre claro / oscuro:
 
 -Vista Mobile en modo oscuro:
+
+
+<img src="https://github.com/user-attachments/assets/0ec6c169-c95f-4599-bb2f-4d4dc6610ec6" width="500" alt="pagina home en vista mobile y modo oscuro" />
 
 ![image](https://github.com/user-attachments/assets/0ec6c169-c95f-4599-bb2f-4d4dc6610ec6)
 
@@ -68,3 +73,16 @@
 ![image](https://github.com/user-attachments/assets/44740fad-9a4a-4c83-95ad-32542dd2020a)
 
 ---
+
+## Modo de trabajo:
+
+Al trabajar en dupla, creamos la rama principal, nombrada m`main` y a partir de la misma creamos las ramas para ir agregando las funcionalidades a la página.
+
+Para organizar y dividir las tareas creamos **issues**:
+
+![image](https://github.com/user-attachments/assets/adfb0871-46d2-4388-84ae-b9eda44847ce)
+
+Una vez que el issue era completado se iban creanod los **pull request** para actualizar la branch `main`.
+
+![image](https://github.com/user-attachments/assets/ce230772-ab8d-4819-b696-17d3ae77e242)
+
