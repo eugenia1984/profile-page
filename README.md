@@ -47,7 +47,7 @@
 
 -Vista Tablet / Desktop en modo claro:
 
-<img src="https://github.com/user-attachments/assets/33b511a8-6e1a-40e4-a009-ffd6717e827d" width="450" alt="pagina home" />
+<img src="https://github.com/user-attachments/assets/33b511a8-6e1a-40e4-a009-ffd6717e827d" width="60" alt="pagina home" />
 
 - **Header** y **Footer** con **Barra de navegación** responsiva y con el **icono** para cambiar el tema entre claro / oscuro:
 
@@ -57,7 +57,7 @@
 
 - **Página de Perfil** en tablet / desktop, en modo oscuro:
 
-<img src="https://github.com/user-attachments/assets/204eb96e-07be-407c-ae35-dca879308ee8" width="500" alt="pagina de perfil en vista desktop y modo oscuro" />
+<img src="https://github.com/user-attachments/assets/204eb96e-07be-407c-ae35-dca879308ee8" width="600" alt="pagina de perfil en vista desktop y modo oscuro" />
 
 - **Página de perfil** en mobile, modo claro.
 
@@ -65,7 +65,7 @@
 
 - **Formulario de contacto** con validaciones:
 
-<img src="https://github.com/user-attachments/assets/f31318f9-cb99-4748-b909-ef3f86194bbd" width="500" alt="pagina de contacto" />
+<img src="https://github.com/user-attachments/assets/f31318f9-cb99-4748-b909-ef3f86194bbd" width="600" alt="pagina de contacto" />
 
 
 ---
